@@ -12,7 +12,8 @@
 }
 
 body {
-  background: var(--shadowColor);
+  background: var(--lightColor) url("../assets/img/bg.jpg") center / cover no-repeat;
+  background-blend-mode: difference;
 }
 
 .container {
