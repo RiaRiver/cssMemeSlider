@@ -5,6 +5,8 @@
   --darkColor: #252525;
   --lightColor: #faf0ff;
   --shadowColor: #c8afe1;
+  --titleFont: "Sansita", sans-serif;
+  --textFont: "Kameron", serif;
 }
 
 * {
@@ -30,6 +32,8 @@ body {
 
 .title {
   margin: 0.25rem;
+  font-family: var(--titleFont);
+  font-weight: 700;
   text-align: center;
 }
 
@@ -88,6 +92,7 @@ body {
   width: 100%;
   height: 100%;
   padding-right: 0.5rem;
+  font-family: var(--textFont);
   font-size: 1.25rem;
   color: var(--lightColor);
   opacity: 0;
