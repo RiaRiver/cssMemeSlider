@@ -1,14 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kameron&family=Sansita:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/8.0.1_normalize.css">
     <link rel="stylesheet" href="./css/style.css">
     <title>Meme Slider</title>
 </head>
 
 <body>
-
+    <div class="container">
+        <h1 class="title">Meme Slider: <span class="subtitle">Me & RS School</span></h1>
+        <div class="slider">
+            <input class="slider__control" type="radio" name="slide" id="slide1" checked>
+            <input class="slider__control" type="radio" name="slide" id="slide2">
+            <input class="slider__control" type="radio" name="slide" id="slide3">
+            <input class="slider__control" type="radio" name="slide" id="slide4">
+            <input class="slider__control" type="radio" name="slide" id="slide5">
+            <input class="slider__control" type="radio" name="slide" id="slide6">
+            <input class="slider__control" type="radio" name="slide" id="slide7">
+            <div class="slides slides-img">
+                <div class="slides__wrapper">
+                    <div class="slide">
+                        <img src="./assets/img/image_1.png" alt="Slide1" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/image_2.png" alt="Slide2" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/image_3.png" alt="Slide3" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/image_4.png" alt="Slide4" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/image_5.png" alt="Slide5" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/image_6.png" alt="Slide6" class="slide-img">
+                    </div>
+                    <div class="slide">
+                        <img src="./assets/img/image_7.png" alt="Slide7" class="slide-img">
+                    </div>
+                </div>
+            </div>
+            <div class="slides slides-text">
+                <div class="slides__wrapper">
+                    <div class="slide-text">Rolling Scopes School: Stage 0</div>
+                    <div class="slide-text">Рассказываю другу, как сделал таску</div>
+                    <div class="slide-text">Сутки до дедлайна Library</div>
+                    <div class="slide-text">После дедлайна Library</div>
+                    <div class="slide-text">Кроссчек</div>
+                    <div class="slide-text">Получаю максимальный балл на кроссчеке</div>
+                    <div class="slide-text">Rolling Scope School: Stage 1</div>
+                </div>
+            </div>
+            <div class="pagination">
+                <label class="pagination__bullet-outline" for="slide1">
+                    <span class="pagination__bullet"></span>
+                </label>
+                <label class="pagination__bullet-outline" for="slide2">
+                    <span class="pagination__bullet"></span>
+                </label>
+                <label class="pagination__bullet-outline" for="slide3">
+                    <span class="pagination__bullet"></span>
+                </label>
+                <label class="pagination__bullet-outline" for="slide4">
+                    <span class="pagination__bullet"></span>
+                </label>
+                <label class="pagination__bullet-outline" for="slide5">
+                    <span class="pagination__bullet"></span>
+                </label>
+                <label class="pagination__bullet-outline" for="slide6">
+                    <span class="pagination__bullet"></span>
+                </label>
+                <label class="pagination__bullet-outline" for="slide7">
+                    <span class="pagination__bullet"></span>
+                </label>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
